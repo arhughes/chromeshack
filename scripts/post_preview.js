@@ -33,6 +33,7 @@ settingsLoadedEvent.addHandler(function()
                     let previewArea = document.createElement("div");
                     previewArea.id = "previewArea";
                     previewArea.style.display = "none";
+                    previewArea.style.overflowY = "scroll";
                     form_body.parentNode.insertBefore(previewArea, form_body);
                 }
             },

@@ -1,0 +1,24 @@
+.postdate .completion-meter .guage .progress.gauge_blue {
+    background: linear-gradient(to bottom,#40a0ff,#204080);
+}
+.postdate .completion-meter .guage .progress.gauge_cyan {
+    background: linear-gradient(to bottom,#40ffff,#008080);
+}
+.postdate .completion-meter .guage .progress.gauge_green {
+    background: linear-gradient(to bottom,#00b300,#008000);
+}
+.postdate .completion-meter .guage .progress.gauge_lime {
+    background: linear-gradient(to bottom,#ccff40,#80a000);
+}
+.postdate .completion-meter .guage .progress.gauge_yellow {
+    background: linear-gradient(to bottom,#fff000,#888000);
+}
+.postdate .completion-meter .guage .progress.gauge_orange {
+    background: linear-gradient(to bottom,#ff9900,#885000);
+}
+.postdate .completion-meter .guage .progress.gauge_red {
+    background: linear-gradient(to bottom,#ff0000,#800000);
+}
+.postdate .completion-meter .guage .progress.gauge_dead {
+    background: linear-gradient(to bottom,#000000,#800000);
+}

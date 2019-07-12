@@ -62,7 +62,8 @@
             "scripts/post_style.js",
             "scripts/emoji_poster.js",
             "scripts/mod_banners.js",
-            "chromeshack_posts.js"
+            "chromeshack_posts.js",
+            "scripts/color_gauge.js"
         ],
         "css": [
             "styles/chromeshack.css",
@@ -70,7 +71,8 @@
             "styles/comic_scripts.css",
             "styles/embed_socials.css",
             "styles/two_pane.css",
-            "styles/media.css"
+            "styles/media.css",
+            "styles/color_gauge.css"
          ],
         "matches": [
             "*://shacknews.com/chatty*",

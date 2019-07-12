@@ -9,6 +9,7 @@ function loadOptions()
     showNotifications(getOption("notifications"));
     showUserFilters(getOption("user_filters"));
     showEmbedSocials(getOption("embed_socials"));
+    showColorGauges(getOption("color_gauges"));
     showEnabledScripts();
     trackChanges();
 }
@@ -82,6 +83,16 @@ function getSwitchers()
 function showSwitchers(enabled)
 {
     document.getElementById("switchers").checked = enabled;
+}
+
+function getColorGauges()
+{
+    return document.getElementById("color_gauges").checked;
+}
+
+function showColorGauges(enabled)
+{
+    document.getElementById("color_gauges").checked = enabled;
 }
 
 function getNotifications()
@@ -413,6 +424,7 @@ function saveOptions()
         saveOption("notifications", getNotifications());
         saveOption("user_filters", getUserFilters());
         saveOption("embed_socials", showEmbedSocials());
+        saveOption("color_gauges", getColorGauges());
     }
     catch (err)
     {
